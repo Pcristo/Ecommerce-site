@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page Template-1</title>
+
+      <!--FONT AWESOME-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    
+      <!--JQUERY-->
+      <script src="http://code.jquery.com/jquery-3.5.1.js"></script>
+  
+      <!--AJAX-->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+      <!-- BOOTSTRAP -->
+      <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" />
+
+      <!--My CSS-->
+      <link rel="stylesheet"type="text/css" href="css/styles.css">
+
+</head>
+<body id="top">
+
+   
+        <!-- SIDE BAR -->
+
+    <input type="checkbox" id="check">
+    <label for="check">
+        <i class="fas fa-bars" id="btn"></i>
+        <i class="fas fa-times" id="cancel"></i>
+    </label>
+
+
+    <div class="sidebar">
+        <header>SMART<span>IDEAS</span>.COM</header>
+        <ul>
+            <li><a href="#special"><i class="fas fa-clock"></i>Smartwatch</a></li>
+            <li><a href=""><i class="fas fa-question-circle"></i>Sobre</a></li>
+            <li><a href="#testemonial"><i class="fas fa-comment-dots"></i>Testemunhos</a></li>
+            <li><a href="#contact"><i class="fas fa-envelope"></i>Contacto</a></li>
+            <li><a href=""><img src="images/uk_flag.png" alt="UK-flag">English</a></li>
+        </ul>
+    </div>
+    <section class="showcase parallax">
+        <div class="video_container">
+            <video class="container_video" src="videos/BG - video.mp4" autoplay muted loop></video>
+        </div>
+
+
+        <div class="content">
+            <h1>The Time Has No Limits!</h1>
+            <h3>E a tecnologia também não!</h3>
+            <br>
+            <h2>Conheça o Novo Smartwatch<span class="span_title">X-7</span> </h2>
+            <a href="#special" class="btn" id="btn">Continuar</a>
+        </div>
+    </section>
+    <!-- END OF SIDE BAR -->
+
+    <!-- CONTAINER CARD PRODUCT-->
+    <div class="card_list_title_top" id="special">
+        <h1>Smartwatch X-7</h1>
+    </div>
+    
+    <div class="container-card">
+        <div class="imgBx">
+            <img src="images/relogio_x7_black_medium.png" alt=" Smartwatch X-7">
+        </div>
+        <div class="product-colors-mobile">
+            <p class="product-colors">Available Colors:
+                <span class="black active" data-color-primary="#212121" data-color-sec="#212121" data-pic="images/relogio_x7_black_medium.png"></span>
+                <span class="blue" data-color-primary="#354E6C" data-color-sec="#354E6C" data-pic="images/relogio_x7_blue_medium.png"></span>
+                <span class="pink" data-color-primary="#D5AAA5" data-color-sec="#D5AAA5" data-pic="images/relogio_x7_pink_medium.png"></span>
+                <span class="orange" data-color-primary="#F27555" data-color-sec="#F27555" data-pic="images/relogio_x7_orange_medium.png"></span>
+            </p>
+        </div>
+        <div class="details">
+            <div class="content">
+                <h2>Smartwatch X-7<br>
+                    <span>Running Collection</span>
+                </h2>
+                <p>
+                    Featuring soft foam cushioning and lightweight, woven fabric in the upper, the Jordan Proto-Lyte is
+                    made for all-day, bouncy comfort.
+                    Lightweight Breathability: Lightweight woven fabric with real or synthetic leather provides
+                    breathable support.
+                    Cushioned Comfort: A full-length foam midsole delivers lightweight, plush cushioning.
+                    Secure Traction: Exaggerated herringbone-pattern outsole offers traction on a variety of surfaces.
+                </p>
+                <p class="product-colors">Available Colors:
+                    <span class="black active" data-color-primary="#212121" data-color-sec="#212121" data-pic="images/relogio_x7_black_medium.png"></span>
+                    <span class="blue" data-color-primary="#354E6C" data-color-sec="#354E6C" data-pic="images/relogio_x7_blue_medium.png"></span>
+                    <span class="pink" data-color-primary="#D5AAA5" data-color-sec="#D5AAA5" data-pic="images/relogio_x7_pink_medium.png"></span>
+                    <span class="orange" data-color-primary="#F27555" data-color-sec="#F27555" data-pic="images/relogio_x7_orange_medium.png"></span>
+                </p>
+                <h3 class="old-price">€ 50.00</h3>
+                <h3>€ 35.00</h3>
+                <div class="buy_it">
+                    <h4>COMPRAR</h4>
+                </div>
+                   <!-- PAYPAL API -->
+                   <div class="pay-pal" id="paypal-button"></div>
+                   <!-- END OF PAYPAL API -->
+            
+            </div>
+        </div>
+    </div>
+    <!-- END OF CONTAINER CAR PRODUCT -->
+
+
+    <!-- CARDS -->
+
+    <div class="card_list_title" id="testemonial">
+        <h1 class="parallax-bo">TESTIMONIAL</h1>
+    </div>
+
+    <section class="card_list parallax-bo" id="produts">
+        <article class="card">
+            <header class="card_header">
+                <h2>"Lorem ipsum dolor sit amet, consectetur adipisicing."</h2>
+                <p>Paulo Alexandre</p>
+            </header>
+            <div class="card_author">
+                <a href="" class="author_img">
+                    <img src="images/img_1.jpg" alt="Image">
+                </a>
+                <svg class="half_circle" viewBox="0 0 106 57">
+                    <path d="M102 4c0 27.1-21.9 49-49 4954 31.1 4
+                    4"></path>
+                </svg>
+                <div class="author_name">
+                    <div class="author_name_prefix"></div>
+                    
+                </div>
+            </div>
+        </article>
+        <article class="card">
+            <header class="card_header">
+                <p>CSS</p>
+                <h2>Lorem ipsum dolor sit amet, consectetur adipisicing.</h2>
+            </header>
+            <div class="card_author">
+                <a href="" class="author_img">
+                    <img src="img_1.jpg" alt="Image">
+                </a>
+                <svg class="half_circle" viewBox="0 0 106 57">
+                    <path d="M102 4c0 27.1-21.9 49-49 4954 31.1 4
+                    4"></path>
+                </svg>
+                <div class="author_name">
+                    <div class="author_name_prefix">AUTHOR</div>
+                    Pedro
+                </div>
+            </div>
+        </article>
+        <article class="card">
+            <header class="card_header">
+                <p>JavaScript</p>
+                <h2>Lorem ipsum dolor sit amet, consectetur adipisicing.</h2>
+            </header>
+            <div class="card_author">
+                <a href="" class="author_img">
+                    <img src="img_1.jpg" alt="Image">
+                </a>
+                <svg class="half_circle" viewBox="0 0 106 57">
+                    <path d="M102 4c0 27.1-21.9 49-49 4954 31.1 4
+                    4"></path>
+                </svg>
+                <div class="author_name">
+                    <div class="author_name_prefix">AUTHOR</div>
+                    Pedro
+                </div>
+            </div>
+        </article>
+        <article class="card">
+            <header class="card_header">
+                <p>React</p>
+                <h2>Lorem ipsum dolor sit amet, consectetur adipisicing.</h2>
+            </header>
+            <div class="card_author">
+                <a href="" class="author_img">
+                    <img src="img_1.jpg" alt="Image">
+                </a>
+                <svg class="half_circle" viewBox="0 0 106 57">
+                    <path d="M102 4c0 27.1-21.9 49-49 4954 31.1 4
+                    4"></path>
+                </svg>
+                <div class="author_name">
+                    <div class="author_name_prefix">AUTHOR</div>
+                    Pedro
+                </div>
+            </div>
+        </article>
+        <article class="card">
+            <header class="card_header">
+                <p>React</p>
+                <h2>Lorem ipsum dolor sit amet, consectetur adipisicing.</h2>
+            </header>
+            <div class="card_author">
+                <a href="" class="author_img">
+                    <img src="img_1.jpg" alt="Image">
+                </a>
+                <svg class="half_circle" viewBox="0 0 106 57">
+                    <path d="M102 4c0 27.1-21.9 49-49 4954 31.1 4
+                    4"></path>
+                </svg>
+                <div class="author_name">
+                    <div class="author_name_prefix">AUTHOR</div>
+                    Pedro
+                </div>
+            </div>
+        </article>
+        <article class="card">
+            <header class="card_header">
+                <p>React</p>
+                <h2>Lorem ipsum dolor sit amet, consectetur adipisicing.</h2>
+            </header>
+            <div class="card_author">
+                <a href="" class="author_img">
+                    <img src="img_1.jpg" alt="Image">
+                </a>
+                <svg class="half_circle" viewBox="0 0 106 57">
+                    <path d="M102 4c0 27.1-21.9 49-49 4954 31.1 4 4"></path>
+                </svg>
+                <div class="author_name">
+                    <div class="author_name_prefix">AUTHOR</div>
+                    Pedro
+                </div>
+            </div>
+        </article>
+    </section>
+    
+    <!-- END OF CARDS -->
+
+    <!-- CONTACT FORM -->
+    <div class="container" id="contact">
+        <h1>CONTACTO</h1>
+        <div  class="wrapper animated bounceInLeft contact_form">
+          <div class="company-info">
+            <h3>Contact Form to Firebase</h3>
+            <ul>
+              <li><i class="fa fa-road"></i> 44 Something st</li>
+              <li><i class="fa fa-phone"></i> (555) 555-5555</li>
+              <li><i class="fa fa-envelope"></i> test@acme.test</li>
+            </ul>
+          </div>
+          <div class="contact">
+            <h3>Fale Conosco</h3>
+            <div class="alert">A sua mensagem foi enviada.</div>
+            <form id="contactForm">
+              <p>
+                <label>Nome</label>
+                <input type="text" name="name" id="name" placeholder="Nome" required>
+              </p>
+              <p>
+                <label>Apelido</label>
+                <input type="text" name="apelido" id="apelido" placeholder="Apelido">
+              </p>
+              <p>
+                
+                <label>E-mail</label>
+                <input type="email" name="email" id="email" placeholder="exemplo@email.com" required>
+              </p>
+              <p>
+                <label>N. Telefone</label>
+                <input type="number" name="phone" id="phone" placeholder="00000" value="+353">
+              </p>
+              <p>
+                <label>Assunto</label>
+                <input type="text" name="subject" id="subject" placeholder="Assunto">
+              </p>
+              <p class="full">
+                <label>Message</label>
+                <textarea name="message" rows="5" id="message" placeholder="Escreva a sua mensagem" required></textarea>
+              </p>
+              <p class="full">
+                <button type="submit">Enviar</button>
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- END OF CONTACT FORM -->
+
+      <!-- SOCIAL MEDIA -->
+      <section class="social">
+
+        <h1>SIGA-NOS NAS REDES SOCIAIS</h1>
+
+        <div class="social_media">
+            <a href=""><i class="fab fa-facebook"></i></a>
+            <a href=""><i class="fab fa-twitter"></i></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+        </div>
+
+      </section>
+      <!-- END OF SOCIAL MEDIA -->
+
+      <!-- FOOTER -->
+      <div class="footer">
+        &copy; DESIGHN_X | BY PEDRO | 2020 <br><br>
+        Todos os direitos resevados
+    </div>
+    <!-- END OF FOOTER -->
+
+    <!--BACK TO TOP -->
+    
+    <a class="back_to_top show_link" href="#top"><i class="fas fa-arrow-up fas_change_color"></i></a>
+    <!-- END OF BACK TO TOP -->
+
+       
+    <!--WhatsApp Wadget-->
+    <div class="whatsaap">
+        <a href="https://api.whatsapp.com/send?phone=+353899596466&text=Deixe a sua mensagem, responderei assim que possível. Muito Obrigado."
+        target="_blank"
+        style="position:fixed;bottom:100px;right:30px;z-index: 100;">
+        <svg enable-background="new 0 0 512 512" width="50" height="50" version="1.1" viewBox="0 0 512 512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><path d="M256.064,0h-0.128l0,0C114.784,0,0,114.816,0,256c0,56,18.048,107.904,48.736,150.048l-31.904,95.104  l98.4-31.456C155.712,496.512,204,512,256.064,512C397.216,512,512,397.152,512,256S397.216,0,256.064,0z" fill="#25D366"/><path d="m405.02 361.5c-6.176 17.44-30.688 31.904-50.24 36.128-13.376 2.848-30.848 5.12-89.664-19.264-75.232-31.168-123.68-107.62-127.46-112.58-3.616-4.96-30.4-40.48-30.4-77.216s18.656-54.624 26.176-62.304c6.176-6.304 16.384-9.184 26.176-9.184 3.168 0 6.016 0.16 8.576 0.288 7.52 0.32 11.296 0.768 16.256 12.64 6.176 14.88 21.216 51.616 23.008 55.392 1.824 3.776 3.648 8.896 1.088 13.856-2.4 5.12-4.512 7.392-8.288 11.744s-7.36 7.68-11.136 12.352c-3.456 4.064-7.36 8.416-3.008 15.936 4.352 7.36 19.392 31.904 41.536 51.616 28.576 25.44 51.744 33.568 60.032 37.024 6.176 2.56 13.536 1.952 18.048-2.848 5.728-6.176 12.8-16.416 20-26.496 5.12-7.232 11.584-8.128 18.368-5.568 6.912 2.4 43.488 20.48 51.008 24.224 7.52 3.776 12.48 5.568 14.304 8.736 1.792 3.168 1.792 18.048-4.384 35.52z" fill="#FAFAFA"/></svg>
+    </a>
+    </div>
+        <!--End of WhatsApp Wadget-->
+
+        <!-- Cookis Alert Box -->
+        
+  <div class="cookies-container">
+    <div class="cookies-content">
+      <p>O nosso website utiliza cookies para melhorar e personalizar a sua experiência de navegação. Ao continuar a navegar 
+          está a consentir a utilização de cookies. <br><a class="terms-link" href="#">Termos e Condições</a></p>
+
+      <button class="cookies-save">Aceitar</button>
+      <button class="cookies-exit"><a class="cokies-exit-link" href="https://www.google.com/">Saír</a></button>
+    </div>
+  </div>
+  <!-- End Of Cookis Alert Box -->
+
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.1.1/firebase.js"></script>
+
+<!--PayPal Payment -->
+<script src="https://www.paypalobjects.com/api/checkout.js"></script>
+<script src="js/paypalpayament.js"></script>
+
+<!-- Contact Form -->
+<script src="js/contact_form.js"></script>
+
+<!-- Main Js -->
+<script src="js/main.js"></script>
+    
+</body>
+</html>
